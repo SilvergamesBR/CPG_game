@@ -14,8 +14,8 @@ if (global.mistakes > 3){
 
 if (random(1) < spawn_chance_step) {
 	spawn_per_sec = 0.1;
-    var sx = irandom_range(0, room_width-64);
-    var sy = irandom_range(0, room_height-64);
+    var sx = irandom_range(64, room_width-64);
+    var sy = irandom_range(64, room_height-64);
 
     instance_create_layer(sx, sy, spawn_layer, spawn_obj);
 }
