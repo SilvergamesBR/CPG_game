@@ -3,7 +3,7 @@ var move_speed = 4;
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-var interact = keyboard_check_pressed(ord("E"));
+interact = keyboard_check_pressed(ord("E"));
 
 if (move_x != 0 && move_y != 0) {
     move_x *= 0.7071;
