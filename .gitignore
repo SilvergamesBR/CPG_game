@@ -1,0 +1,31 @@
+# Ignore GameMaker resource ordering files (they change per user)
+*.resource_order
+*.old
+
+# Ignore per-user options to prevent asset browser order conflicts
+options/
+
+# YYP Maker temporary files
+___yyp_maker_trash/
+
+# GMLive plugin artifacts
+*GMLive*
+*obj_gmlive*
+
+# Stitch (asset packer) files
+.stitch
+stitch.config.json
+tmp/
+
+# Notes or docs you don’t want in source control
+notes/
+
+# Build or export folders
+build/
+exports/
+
+# Language statistics override to prevent mistaken linguist detection
+*.yy linguist-generated=true
+
+# Treat GameMaker YY files as generated to exclude from stats
+*.yy linguist-generated=true
