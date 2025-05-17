@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_stove",
+  "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_stove",
   "overriddenProperties":[],
   "parent":{
-    "name":"solids",
-    "path":"folders/Objects/solids.yy",
+    "name":"interactables",
+    "path":"folders/Objects/interactables.yy",
   },
   "parentObjectId":{
-    "name":"obj_solid",
-    "path":"objects/obj_solid/obj_solid.yy",
+    "name":"abs_interactable",
+    "path":"objects/abs_interactable/abs_interactable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,11 +29,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"Sprite18",
+    "path":"sprites/Sprite18/Sprite18.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

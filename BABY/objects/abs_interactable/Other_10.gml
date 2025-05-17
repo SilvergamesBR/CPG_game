@@ -20,10 +20,13 @@ if (p != noone && distance_to_object(p) < 10) {
         if (instance_exists(interact_instance)) {
             with (interact_instance) instance_destroy();
             interact_instance = noone;
-        }
-
-
+		}
     }
+	
+if (obj_player.interact) {
+    image_index = 1 - image_index;
+}
+
 } else {
 	
     if (instance_exists(interact_instance)) {
