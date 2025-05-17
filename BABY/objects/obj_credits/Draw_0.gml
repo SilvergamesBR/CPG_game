@@ -9,6 +9,7 @@ var artCredits = "Arte: Mariana Rodrigues";
 var wpc = string_width(programCredits);
 var wac = string_width(artCredits);
 
+draw_set_color(c_white);
 //draw_set_font(fnt_menu);
 
 draw_text(x0-(wpc/2), y0, programCredits);

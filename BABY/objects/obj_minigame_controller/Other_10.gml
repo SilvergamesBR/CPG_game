@@ -1,0 +1,2 @@
+enableQuit = true;
+gameOver = true;
