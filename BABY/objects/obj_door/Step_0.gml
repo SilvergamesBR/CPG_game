@@ -20,8 +20,16 @@ if (p != noone && distance_to_object(p) < 20) {
             interact_instance = noone;
         }
 
-    if (aberta) {
-    if (!place_meeting(x, y, obj_player)) {
+if (aberta) {
+    // Simula a área que a porta ocuparia ao fechar
+    var spr = spr_door_closed;
+    var left   = x + sprite_get_bbox_left(spr);
+    var top    = y + sprite_get_bbox_top(spr);
+    var right  = x + sprite_get_bbox_right(spr);
+    var bottom = y + sprite_get_bbox_bottom(spr);
+
+    // Verifica se o player estaria colidindo com a porta fechada
+    if (!collision_rectangle(left, top, right, bottom, obj_player, false, true)) {
         aberta = false;
     }
 } else {

@@ -6,10 +6,13 @@
   "name":"obj_fan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Fans",
+    "path":"folders/Objects/solids/bodies/Fans.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"abs_body",
+    "path":"objects/abs_body/abs_body.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

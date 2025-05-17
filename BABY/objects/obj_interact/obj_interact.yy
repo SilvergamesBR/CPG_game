@@ -6,8 +6,8 @@
   "name":"obj_interact",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"interactables",
+    "path":"folders/Objects/interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

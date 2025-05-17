@@ -6,10 +6,13 @@
   "name":"obj_lightswitch",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"interactables",
+    "path":"folders/Objects/interactables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"abs_interactable",
+    "path":"objects/abs_interactable/abs_interactable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_lightswitch",
+    "path":"sprites/spr_lightswitch/spr_lightswitch.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
