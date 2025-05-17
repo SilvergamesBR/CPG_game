@@ -15,7 +15,11 @@ audio_play_sound(
 );
 
 if (scoreIncrease >= 90){
-	global.spawn_increase_rate -= 0.015;
+	if(global.spawn_increase_rate > 0.015){
+		global.spawn_increase_rate -= 0.015;
+	}else{
+		global.spawn_increase_rate = 0;
+	}
 }
 
 if (scoreIncrease < 25){

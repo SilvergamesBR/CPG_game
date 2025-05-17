@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_note_temp",
-    "path":"sprites/spr_note_temp/spr_note_temp.yy",
+    "name":"spr_note_new",
+    "path":"sprites/spr_note_new/spr_note_new.yy",
   },
   "spriteMaskId":null,
   "visible":true,

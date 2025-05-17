@@ -78,6 +78,7 @@
     {"id":{"name":"spr_good","path":"sprites/spr_good/spr_good.yy",},},
     {"id":{"name":"spr_great","path":"sprites/spr_great/spr_great.yy",},},
     {"id":{"name":"spr_miss","path":"sprites/spr_miss/spr_miss.yy",},},
+    {"id":{"name":"spr_note_new","path":"sprites/spr_note_new/spr_note_new.yy",},},
     {"id":{"name":"spr_note_temp","path":"sprites/spr_note_temp/spr_note_temp.yy",},},
     {"id":{"name":"spr_perfect","path":"sprites/spr_perfect/spr_perfect.yy",},},
     {"id":{"name":"spr_player_temp","path":"sprites/spr_player_temp/spr_player_temp.yy",},},
