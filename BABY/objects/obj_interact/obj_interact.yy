@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_window",
+  "%Name":"obj_interact",
   "eventList":[],
   "managed":true,
-  "name":"obj_window",
+  "name":"obj_interact",
   "overriddenProperties":[],
   "parent":{
-    "name":"solids",
-    "path":"folders/Objects/solids.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite6",
+    "path":"sprites/Sprite6/Sprite6.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

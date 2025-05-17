@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_window",
+  "%Name":"abs_body",
   "eventList":[],
   "managed":true,
-  "name":"obj_window",
+  "name":"abs_body",
   "overriddenProperties":[],
   "parent":{
-    "name":"solids",
-    "path":"folders/Objects/solids.yy",
+    "name":"bodies",
+    "path":"folders/Objects/solids/bodies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

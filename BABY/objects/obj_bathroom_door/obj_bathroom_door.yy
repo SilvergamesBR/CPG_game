@@ -6,10 +6,13 @@
   "name":"obj_bathroom_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"doors",
+    "path":"folders/Objects/solids/doors.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_door",
+    "path":"objects/obj_door/obj_door.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_door_opened",
+    "path":"sprites/spr_door_opened/spr_door_opened.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
