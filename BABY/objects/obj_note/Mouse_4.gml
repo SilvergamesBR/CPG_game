@@ -1,6 +1,19 @@
 var scoreIncrease = ((timing/duration)*100)
 score += scoreIncrease;
 
+audio_play_sound(
+    choose(
+        correct_note1,
+        correct_note2,
+        correct_note3,
+        correct_note4,
+        correct_note5,
+        correct_note6
+    ),
+    1,    
+    false 
+);
+
 if (scoreIncrease >= 90){
 	global.spawn_increase_rate -= 0.015;
 }

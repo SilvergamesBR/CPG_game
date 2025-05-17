@@ -12,6 +12,7 @@ if (growing) {
 		with (popup) event_user(0);
 		global.mistakes += 1;
 		global.spawn_increase_rate += 0.01;
+		audio_play_sound(wrong_note,1,false);
         instance_deactivate_object(self);
     }
 }
