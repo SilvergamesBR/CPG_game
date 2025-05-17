@@ -2,6 +2,7 @@ var p = instance_nearest(x, y, obj_player);
 
 if (obj_player.interact) {
     image_index = 1 - image_index;
+	toggled = !toggled;
 }
 
 if (!variable_instance_exists(id, "interact_instance")) {

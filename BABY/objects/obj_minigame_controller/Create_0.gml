@@ -6,10 +6,10 @@ spawn_per_sec = 0.1;
 spawn_chance_step = spawn_per_sec / game_get_speed(gamespeed_fps);
 
 // Name of the layer to create notes on
-spawn_layer      = "Instances";    
+spawn_layer  = "Instances";    
 
 // Object to spawn
-spawn_obj        = obj_note;
+spawn_obj = obj_note;
 
 enableQuit = false
 gameOver = false

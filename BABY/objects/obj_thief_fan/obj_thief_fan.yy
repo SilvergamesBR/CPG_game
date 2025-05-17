@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"abs_interactable",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_thief_fan",
+  "eventList":[],
   "managed":true,
-  "name":"abs_interactable",
+  "name":"obj_thief_fan",
   "overriddenProperties":[],
   "parent":{
-    "name":"interactables",
-    "path":"folders/Objects/interactables.yy",
+    "name":"fans",
+    "path":"folders/Objects/fans.yy",
   },
   "parentObjectId":null,
   "persistent":false,
