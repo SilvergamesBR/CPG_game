@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_window",
+  "%Name":"obj_solid",
   "eventList":[],
   "managed":true,
-  "name":"obj_window",
+  "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
     "name":"solids",
@@ -23,10 +23,12 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"aberta","filters":[],"listItems":[],"multiselect":false,"name":"aberta","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
