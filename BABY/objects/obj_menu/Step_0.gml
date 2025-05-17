@@ -24,7 +24,7 @@ if (hovered != -1) {
 if (hovered != -1 && mouse_check_button_pressed(mb_left)) {
     switch (hovered) {
         case 0:
-            room_goto(rm_bedroom);
+            room_goto(rm_minigame);
             break;
         case 1:
             room_goto(rm_credits);
