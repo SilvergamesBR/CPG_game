@@ -10,7 +10,7 @@ if(move_y == 0 and move_x == 0){
 	}else if(sprite_index == spr_player_side_walking or sprite_index == spr_player_side){
 		sprite_index = spr_player_side;
 	}else{	
-		sprite_index = spr_player;
+		sprite_index = playingAnimation ? spr_player_franja : spr_player;
 	}
 }
 
@@ -32,6 +32,15 @@ if(move_x > 0){
 if(move_x < 0){
 	sprite_index = spr_player_side_walking;
 	image_xscale = -1;
+}
+
+if(((random(1) <= 0.0005) or playingAnimation) and (sprite_index == spr_player or sprite_index == spr_player_franja)){
+	playingAnimation = true;
+	if (image_index >= image_number - 1) {
+		image_index = image_number - 1; 
+		playingAnimation = false;
+		sprite_index = spr_player;
+	}	
 }
 
 interact = keyboard_check_pressed(ord("E"));
