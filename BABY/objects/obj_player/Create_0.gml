@@ -1,1 +1,2 @@
-interact = false
+interact = false;
+attacked = false;

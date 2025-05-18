@@ -5,6 +5,10 @@ var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 interact = keyboard_check_pressed(ord("E"));
 
+if(attacked){
+	image_blend = c_orange;	
+}
+
 if (move_x != 0 && move_y != 0) {
     move_x *= 0.7071;
     move_y *= 0.7071;
