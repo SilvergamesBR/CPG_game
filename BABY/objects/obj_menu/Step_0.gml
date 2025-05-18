@@ -5,8 +5,6 @@ var spacing   = 32;
 
 var hovered   = -1;
 
-show_debug_message("Credits instance count: " + string(instance_number(obj_credits)));
-
 for (var i = 0; i < menu_count; i++) {
     var text_str = menu_options[i];
     var tx        = base_x;
