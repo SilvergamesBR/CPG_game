@@ -1,8 +1,8 @@
 randomize();
 
-if(random(1) < 0.05 and room == rm_bedroom){
-	var sx = irandom_range(64, room_width-64);
-    var sy = irandom_range(64, room_height-64);
+if(random(1) < 0.001 and room == rm_bedroom){
+	var sx = irandom_range(250, room_width-250);
+    var sy = irandom_range(250, room_height-250);
 
     instance_create_layer(sx, sy, "Instances", obj_dirt);
 }

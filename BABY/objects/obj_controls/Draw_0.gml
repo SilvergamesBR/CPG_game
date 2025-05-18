@@ -4,7 +4,7 @@ if (room == rm_controls) {
 	var spacing = 32;
 
 	var movement = "Movimentação: WASD";
-	var getItens = "Pegar itens: Botão direito do mouse";
+	var getItens = "Pegar itens: Botão direito do mouse, itens pegaveis brilham vermelho quando em range";
 	var throwItems = "Jogar itens: Botão esquerdo do mouse, segure para jogar mais lonje";
 	var throwItems2 = "e mire com o ponteiro";
 	var interact = "Interagir: E";

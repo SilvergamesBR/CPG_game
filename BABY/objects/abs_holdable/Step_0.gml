@@ -11,11 +11,11 @@ if (isHeld) {
     
 	solid = false;
 	
-
+	image_blend = c_white;
 	
 	
 	var gameFps = game_get_speed(gamespeed_fps);
-    if (mouse_check_button(mb_left) or keyboard_check(ord("X"))) {
+	if (mouse_check_button(mb_left) or keyboard_check(ord("X"))) {
         // ramp up charge
         charge = clamp(charge + charge_speed / gameFps, 0, 1);
         was_holding = true;
@@ -43,6 +43,7 @@ if (isHeld) {
     // 3) Check for pickup: e.g. player presses Z when touching
     var ply = instance_nearest(x, y, obj_player);
     if (ply != noone && point_distance(x, y, ply.x, ply.y) < 48) {
+		image_blend = c_red;
         if (mouse_check_button_pressed(mb_right) or keyboard_check_pressed(ord("Z"))) {
             // pick up
             isHeld       = true;
@@ -51,7 +52,11 @@ if (isHeld) {
             // calculate offsets so it appears “in hand”
             hold_offsetX = x - ply.x;
             hold_offsetY = y - ply.y;
+			
+			
         }
-    }
+    }else{
+		image_blend = c_white;
+	}
 	solid = true;
 }

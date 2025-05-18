@@ -8,7 +8,7 @@ if (global.mistakes > 3){
 	global.spawn_increase_rate = 0;
 	spawn_per_sec = 0;
 	spawn_chance_step = 0;
-	instance_deactivate_all(true);
+	instance_destroy(obj_note)
 	event_user(0);
 }
 
