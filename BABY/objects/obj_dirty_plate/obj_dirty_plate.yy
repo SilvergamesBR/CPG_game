@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sink",
-  "eventList":[],
+  "%Name":"obj_dirty_plate",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_sink","path":"objects/obj_sink/obj_sink.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_sink",
+  "name":"obj_dirty_plate",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"holdable",
+    "path":"folders/Objects/holdable.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"abs_holdable",
+    "path":"objects/abs_holdable/abs_holdable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_sink",
-    "path":"sprites/spr_sink/spr_sink.yy",
+    "name":"spr_dirty_plate",
+    "path":"sprites/spr_dirty_plate/spr_dirty_plate.yy",
   },
   "spriteMaskId":null,
   "visible":true,
