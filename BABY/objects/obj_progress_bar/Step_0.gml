@@ -1,6 +1,7 @@
 if (instance_exists(stove_ref)) {
     if (stove_ref.cooking_timer <= 0) {
-		instance_create_layer(x,y,"Instances",obj_spaghetti)
-        instance_destroy(); // self-destruct when done
+        instance_destroy(); // destrói a barra quando o cozimento acabar
     }
+} else {
+    instance_destroy(); // destrói a barra se o fogão foi destruído
 }

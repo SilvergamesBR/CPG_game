@@ -1,3 +1,5 @@
+
+
 if (instance_exists(stove_ref)) {
     var p = stove_ref.cooking_timer / 180;
     var bar_width = 60;

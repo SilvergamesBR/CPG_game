@@ -9,7 +9,6 @@ function select_spaghetti() {
         stove_var.start_spaghetti();
     }
 
-    show_debug_message("You selected Spaghetti!");
 }
 
 // Store the function references
