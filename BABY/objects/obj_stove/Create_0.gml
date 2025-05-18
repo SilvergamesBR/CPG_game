@@ -14,6 +14,14 @@ function select_meat() {
     show_debug_message("Meat selected");
 }
 
+// Mapeia nomes a funções (agora elas já existem)
+ingredient_actions = {
+    "pasta": select_pasta,
+    "tomato": select_tomato,
+    "meat": select_meat
+};
+
+
 // Ingredientes necessários
 ingredients = {
     pasta: false,
@@ -21,12 +29,6 @@ ingredients = {
     meat: false
 };
 
-// Mapeia nomes a funções (agora elas já existem)
-ingredient_actions = {
-    "pasta": select_pasta,
-    "tomato": select_tomato,
-    "meat": select_meat
-};
 
 progress_bar = noone;
 cooking_timer = 0;
