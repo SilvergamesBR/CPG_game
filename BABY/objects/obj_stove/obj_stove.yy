@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_stove",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_stove",
   "overriddenProperties":[],
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite18",
-    "path":"sprites/Sprite18/Sprite18.yy",
+    "name":"stove",
+    "path":"sprites/stove/stove.yy",
   },
   "spriteMaskId":null,
   "visible":true,

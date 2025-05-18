@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Object25",
-  "eventList":[],
+  "%Name":"obj_fridge",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object25",
+  "name":"obj_fridge",
   "overriddenProperties":[],
   "parent":{
     "name":"interactables",
     "path":"folders/Objects/interactables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"abs_interactable",
+    "path":"objects/abs_interactable/abs_interactable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,8 +31,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"fridge",
+    "path":"sprites/fridge/fridge.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
