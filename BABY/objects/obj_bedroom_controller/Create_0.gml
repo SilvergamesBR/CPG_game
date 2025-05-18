@@ -1,0 +1,1 @@
+global.illuminated = true;
