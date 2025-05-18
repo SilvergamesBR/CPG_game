@@ -1,26 +1,15 @@
-randomize();
+// Inherit the parent event
+event_inherited();
+image_blend = c_orange;
 
-var candidates = [];
+targetType = obj_player;
 
-with (abs_interactable) {
-    if (enemy_targetable) {
-        array_push(candidates, id);
-    }
-}
-
-if (array_length(candidates) > 0) {
-    var chosen = candidates[irandom(array_length(candidates) - 1)];
-    targetType = chosen;
-} else {
-    targetType = noone; // fallback if nothing found
-}
+move_speed = 2;
 
 if (instance_exists(targetType)) {
-    if (targetType.stolen == true) {
-        instance_deactivate_object(self);
-    }
+    targetInst = instance_nearest(x, y, targetType);
 } else {
     instance_deactivate_object(self);
 }
 
-move_speed = 4;
+object_damage = 10;

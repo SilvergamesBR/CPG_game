@@ -44,7 +44,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"BABY",
   "resources":[
@@ -69,6 +69,7 @@
     {"id":{"name":"obj_dirty_plate","path":"objects/obj_dirty_plate/obj_dirty_plate.yy",},},
     {"id":{"name":"obj_door_deprecated","path":"objects/obj_door_deprecated/obj_door_deprecated.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
+    {"id":{"name":"obj_fan_spawner","path":"objects/obj_fan_spawner/obj_fan_spawner.yy",},},
     {"id":{"name":"obj_fan","path":"objects/obj_fan/obj_fan.yy",},},
     {"id":{"name":"obj_fanatic","path":"objects/obj_fanatic/obj_fanatic.yy",},},
     {"id":{"name":"obj_fridge","path":"objects/obj_fridge/obj_fridge.yy",},},
@@ -105,6 +106,7 @@
     {"id":{"name":"obj_washing_machine","path":"objects/obj_washing_machine/obj_washing_machine.yy",},},
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},},
     {"id":{"name":"Object35","path":"objects/Object35/Object35.yy",},},
+    {"id":{"name":"Object53","path":"objects/Object53/Object53.yy",},},
     {"id":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
     {"id":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},

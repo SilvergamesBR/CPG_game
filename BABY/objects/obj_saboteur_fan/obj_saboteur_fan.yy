@@ -12,7 +12,10 @@
     "name":"fans",
     "path":"folders/Objects/fans.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_fan",
+    "path":"objects/obj_fan/obj_fan.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
