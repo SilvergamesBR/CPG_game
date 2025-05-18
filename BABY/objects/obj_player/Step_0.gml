@@ -34,7 +34,7 @@ if(move_x < 0){
 	image_xscale = -1;
 }
 
-if(((random(1) <= 0.0005) or playingAnimation) and (sprite_index == spr_player or sprite_index == spr_player_franja)){
+if(((random(1) <= 0.001) or playingAnimation) and (sprite_index == spr_player or sprite_index == spr_player_franja)){
 	playingAnimation = true;
 	if (image_index >= image_number - 1) {
 		image_index = image_number - 1; 
