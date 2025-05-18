@@ -5,10 +5,18 @@ var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 interact = keyboard_check_pressed(ord("E"));
 
+if (!global.menu_active && interact) {
+    global.menu_active = true;
+    instance_create_layer(x, y, "Instances", obj_menu_fridge); // ou obj_menu_stove
+}
+
 if(attacked){
 	image_blend = c_orange;	
 }
 
+
+
+if (!global.menu_active){
 if (move_x != 0 && move_y != 0) {
     move_x *= 0.7071;
     move_y *= 0.7071;
@@ -47,3 +55,4 @@ if (place_meeting(x, y + move_y * move_speed, obj_solid)) {
     y += move_y * move_speed;
 }
 
+}
