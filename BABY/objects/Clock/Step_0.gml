@@ -12,8 +12,10 @@ if (time_accumulator >= real_seconds_per_ingame_minute) {
     }
 }
 
-if (hour >= 24) {
-	
-    // end day
+if (hour >= 22) {
+	global.money += global.popularity*0.035;
+	global.current_game_day += 1
+	hour = 9;
+	minute = 0;
 }
 

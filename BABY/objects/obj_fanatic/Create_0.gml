@@ -12,4 +12,4 @@ if (instance_exists(targetType)) {
     instance_deactivate_object(self);
 }
 
-object_damage = 10;
+object_damage = 1;

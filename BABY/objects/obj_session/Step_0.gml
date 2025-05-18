@@ -1,10 +1,19 @@
 randomize();
 
-if(random(1) < 0.001 and room == rm_bedroom){
+if(random(1) < 0.005 and room == rm_bedroom){
 	var sx = irandom_range(250, room_width-250);
     var sy = irandom_range(250, room_height-250);
 
     instance_create_layer(sx, sy, "Instances", obj_dirt);
+
+}
+
+if(random(1) < 0.003 and room == rm_bedroom){
+	
+	var sx = irandom_range(250, room_width-250);
+    var sy = irandom_range(250, room_height-250);
+
+	 instance_create_layer(sx, sy, "Instances", obj_clothes);
 }
 
 global.hunger += 0.01;
