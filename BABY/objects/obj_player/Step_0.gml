@@ -1,29 +1,27 @@
 var move_speed = 4;
 
+
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 interact = keyboard_check_pressed(ord("E"));
 
+if (!global.menu_active && interact && global.interact_cooldown == 0) {
+    var offset_x = move_x * 16;
+    var offset_y = move_y * 16;
 
-if (!global.menu_active && interact) {
-	var offset_x = move_x * 16; // 16 pixels in the direction player is facing
-	var offset_y = move_y * 16;
-	
-var interact_obj = instance_place(x + offset_x, y + offset_y, abs_interactable);
-// general parent object for interactables
+    var interact_obj = instance_place(x + offset_x, y + offset_y, abs_interactable);
     if (interact_obj != noone) {
-       
-        // check the specific type
         if (interact_obj.object_index == obj_fridge) {
-			global.menu_active = true;
+            global.menu_active = true;
             instance_create_layer(x, y, "Instances", obj_menu_fridge);
         } else if (interact_obj.object_index == obj_stove) {
-			global.menu_active = true;
+            global.menu_active = true;
             instance_create_layer(x, y, "Instances", obj_menu_stove);
         }
     }
 }
+
 
 
 if(attacked){

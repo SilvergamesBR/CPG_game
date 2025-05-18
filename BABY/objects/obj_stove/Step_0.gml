@@ -1,4 +1,4 @@
-event_user(0);
+event_user(0)
 
 if(stolen == true){
 	image_blend = c_fuchsia;
