@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"stove",
-    "path":"sprites/stove/stove.yy",
+    "name":"spr_stove",
+    "path":"sprites/spr_stove/spr_stove.yy",
   },
   "spriteMaskId":null,
   "visible":true,
