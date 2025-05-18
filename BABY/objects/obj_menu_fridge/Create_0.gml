@@ -3,18 +3,27 @@ event_inherited();
 
 // Define the functions (you only do this once)
 function select_tomato() {
-	instance_create_layer(x,y,"Instances",obj_tomato)
+	if(global.money > 10){
+		instance_create_layer(x,y,"Instances",obj_tomato)
+		global.money -= 10;
+	}
     show_debug_message("You selected Tomato!");
 }
 // Define the functions (you only do this once)
 function select_pasta() {
-	instance_create_layer(x,y,"Instances",obj_pasta)
+	if(global.money > 10){
+		instance_create_layer(x,y,"Instances",obj_pasta)
+		global.money -= 10;
+	}
     show_debug_message("You selected Pasta!");
 }
 
 
 function select_meat() {
-	instance_create_layer(x,y,"Instances",obj_meat)
+	if(global.money > 10){
+		instance_create_layer(x,y,"Instances",obj_meat)
+		global.money -= 10;
+	}
     show_debug_message("You selected Meat!");
 }
 

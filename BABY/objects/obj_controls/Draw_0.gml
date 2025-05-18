@@ -17,7 +17,7 @@ if (room == rm_controls) {
 	var wtc2 = string_width(throwItems2);
 	var wic = string_width(interact);
 
-	draw_set_color(c_white);
+	draw_set_color(c_black);
 //draw_set_font(fnt_menu);
 
 	draw_text(x0-(wpc/2), y0, movement);

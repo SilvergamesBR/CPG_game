@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_bathroom_door",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_bathroom_door",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"doors",
     "path":"folders/Objects/solids/doors.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"abs_interactable",
+    "path":"objects/abs_interactable/abs_interactable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

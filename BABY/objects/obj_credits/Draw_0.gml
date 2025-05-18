@@ -2,7 +2,7 @@ if (room == rm_credits) {
 	var x0 = room_width  * 0.5;
 	var y0 = room_height * 0.4;
 	var spacing = 32;
-
+	draw_set_color(c_black);
 	var programCredits = "Programacao: Victor Zeferino & Lucas Fajardo";
 	var artCredits = "Arte: Mariana Rodrigues";
 
@@ -10,7 +10,7 @@ if (room == rm_credits) {
 	var wpc = string_width(programCredits);
 	var wac = string_width(artCredits);
 
-	draw_set_color(c_white);
+	draw_set_color(c_black);
 //draw_set_font(fnt_menu);
 
 	draw_text(x0-(wpc/2), y0, programCredits);
