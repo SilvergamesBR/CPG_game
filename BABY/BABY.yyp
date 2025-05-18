@@ -109,6 +109,7 @@
     {"id":{"name":"correct_note4","path":"sounds/correct_note4/correct_note4.yy",},},
     {"id":{"name":"correct_note5","path":"sounds/correct_note5/correct_note5.yy",},},
     {"id":{"name":"correct_note6","path":"sounds/correct_note6/correct_note6.yy",},},
+    {"id":{"name":"main_song","path":"sounds/main_song/main_song.yy",},},
     {"id":{"name":"menu_music_loop","path":"sounds/menu_music_loop/menu_music_loop.yy",},},
     {"id":{"name":"st_1_loop","path":"sounds/st_1_loop/st_1_loop.yy",},},
     {"id":{"name":"wrong_note","path":"sounds/wrong_note/wrong_note.yy",},},
