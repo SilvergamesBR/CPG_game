@@ -17,22 +17,24 @@ if (isHeld) {
         holder = noone;
     }
 	
-	if(mouse_check_button(mb_left)){
-		throw_speed += 0.1;	
-	}
 	
-	if (mouse_check_button_pressed(mb_left)) {
-        // 1) Un‑flag it as held
-        isHeld = false;
-        // 2) Compute direction: toward mouse, or fixed
-        //    Example: throw toward the mouse cursor
-        dir = point_direction(x, y, mouse_x, mouse_y);
-        // 3) Assign motion
-        speed     = throw_speed;
-        direction = dir;
-        // 4) Clear holder so it won’t re‑attach
+	
+	var gameFps = game_get_speed(gamespeed_fps);
+    if (mouse_check_button(mb_left)) {
+        // ramp up charge
+        charge = clamp(charge + charge_speed / gameFps, 0, 1);
+        was_holding = true;
+    } else if (was_holding) {
+        // 3) On release: execute throw
+        var currentPower = lerp(min_throw_spd, max_throw_spd, charge);
+		dir = point_direction(x, y, mouse_x, mouse_y);
+        speed     = currentPower;
+        direction = point_direction(x, y, mouse_x, mouse_y);
+        isHeld    = false;
         holder    = noone;
-		thrown = true;
+        charge    = 0;
+        thrown    = true;
+        was_holding = false;
     }
 } else if (thrown){
 	speed -= 0.1;

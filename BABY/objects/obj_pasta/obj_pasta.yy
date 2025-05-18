@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_pasta",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_stove","path":"objects/obj_stove/obj_stove.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_pasta",
   "overriddenProperties":[],

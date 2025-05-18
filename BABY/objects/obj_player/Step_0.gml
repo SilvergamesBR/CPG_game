@@ -4,6 +4,36 @@ var move_speed = 4;
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+if(move_y == 0 and move_x == 0){
+	if(sprite_index == spr_player_behind_walking or sprite_index == spr_player_behind){
+		sprite_index = spr_player_behind;
+	}else if(sprite_index == spr_player_side_walking or sprite_index == spr_player_side){
+		sprite_index = spr_player_side;
+	}else{	
+		sprite_index = spr_player;
+	}
+}
+
+if(move_y > 0){
+	sprite_index = spr_player_forward;
+	image_xscale = 1;
+}
+
+if(move_y < 0){
+	sprite_index = spr_player_behind_walking;
+	image_xscale = 1;
+}
+
+if(move_x > 0){
+	sprite_index = spr_player_side_walking;
+	image_xscale = 1;
+}
+
+if(move_x < 0){
+	sprite_index = spr_player_side_walking;
+	image_xscale = -1;
+}
+
 interact = keyboard_check_pressed(ord("E"));
 
 if (!global.menu_active && interact && global.interact_cooldown == 0) {
