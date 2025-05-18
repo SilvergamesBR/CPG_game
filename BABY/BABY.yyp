@@ -44,7 +44,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"BABY",
   "resources":[
@@ -159,6 +159,7 @@
     {"id":{"name":"spr_player_behind_walking","path":"sprites/spr_player_behind_walking/spr_player_behind_walking.yy",},},
     {"id":{"name":"spr_player_behind","path":"sprites/spr_player_behind/spr_player_behind.yy",},},
     {"id":{"name":"spr_player_forward","path":"sprites/spr_player_forward/spr_player_forward.yy",},},
+    {"id":{"name":"spr_player_franja","path":"sprites/spr_player_franja/spr_player_franja.yy",},},
     {"id":{"name":"spr_player_side_walking","path":"sprites/spr_player_side_walking/spr_player_side_walking.yy",},},
     {"id":{"name":"spr_player_side","path":"sprites/spr_player_side/spr_player_side.yy",},},
     {"id":{"name":"spr_player_temp","path":"sprites/spr_player_temp/spr_player_temp.yy",},},
