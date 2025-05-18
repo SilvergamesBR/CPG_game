@@ -7,6 +7,6 @@ if(random(1) < 0.001 and room == rm_bedroom){
     instance_create_layer(sx, sy, "Instances", obj_dirt);
 }
 
-global.hunger += 0.001;
+global.hunger += 0.01;
 
-global.hygiene -= 0.0001;
+global.hygiene -= 0.001;
