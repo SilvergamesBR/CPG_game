@@ -1,3 +1,4 @@
+if (room == rm_bedroom){
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
@@ -43,3 +44,4 @@ draw_text(x_base + bar_w + 10, y_base + 1 * spacing, "Sanity");
 draw_text(x_base + bar_w + 10, y_base + 2 * spacing, "Tidiness");
 draw_text(x_base + bar_w + 10, y_base + 3 * spacing, "Hygiene");
 draw_text(x_base + bar_w + 10, y_base + 4 * spacing, "Hunger");
+}

@@ -16,7 +16,7 @@ if (gameOver == true ){
 	var veryBads = "Very bads: "+string(global.veryBads);
 	
 	draw_set_color(c_red);
-	draw_text(room_width/2- (string_width("YOU LOST !")/2), textHeight, "YOU LOST !");
+	draw_text(room_width/2- (string_width("The end")/2), textHeight, "The end");
 	draw_set_color(c_white);
 	draw_text(room_width/2- (string_width(finalScore)/2), textHeight + (spacing *1),finalScore);
 	draw_text(room_width/2- (string_width(perfects)/2), textHeight + (spacing *2), perfects);
@@ -24,6 +24,6 @@ if (gameOver == true ){
 	draw_text(room_width/2- (string_width(goods)/2), textHeight + (spacing *4), goods);
 	draw_text(room_width/2- (string_width(bads)/2), textHeight + (spacing *5), bads);
 	draw_text(room_width/2- (string_width(veryBads)/2), textHeight + (spacing *6), veryBads);
-	draw_text(room_width/2- (string_width("press esc to return to menu")/2), textHeight + (spacing *7), "press esc to return to menu");
+	draw_text(room_width/2- (string_width("press esc to return to game")/2), textHeight + (spacing *7), "press esc to return to game");
 	
 }

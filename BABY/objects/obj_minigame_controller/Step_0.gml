@@ -21,5 +21,5 @@ if (random(1) < spawn_chance_step) {
 }
 
 if (keyboard_check_pressed(vk_escape) and enableQuit == true) {
-    room_goto(rm_menu);
+    room_goto(rm_bedroom);
 }
