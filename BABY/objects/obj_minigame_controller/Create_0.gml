@@ -1,5 +1,5 @@
 // Average number of notes to try spawning per second (e.g. 0.2 → 1 every 5s on average)
-multiplier = global.sanity+global.tidiness * global.hunger;
+multiplier = (global.sanity+global.tidiness) * global.hunger;
 
 multiplier = 1 + (multiplier/100);
 
