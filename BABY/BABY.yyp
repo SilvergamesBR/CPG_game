@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"BABY",
   "resources":[
@@ -98,6 +98,7 @@
     {"id":{"name":"spr_clothes","path":"sprites/spr_clothes/spr_clothes.yy",},},
     {"id":{"name":"spr_door_closed","path":"sprites/spr_door_closed/spr_door_closed.yy",},},
     {"id":{"name":"spr_door_opened","path":"sprites/spr_door_opened/spr_door_opened.yy",},},
+    {"id":{"name":"spr_fanatic","path":"sprites/spr_fanatic/spr_fanatic.yy",},},
     {"id":{"name":"spr_good","path":"sprites/spr_good/spr_good.yy",},},
     {"id":{"name":"spr_great","path":"sprites/spr_great/spr_great.yy",},},
     {"id":{"name":"spr_lightswitch","path":"sprites/spr_lightswitch/spr_lightswitch.yy",},},
@@ -108,6 +109,9 @@
     {"id":{"name":"spr_perfect","path":"sprites/spr_perfect/spr_perfect.yy",},},
     {"id":{"name":"spr_player_temp","path":"sprites/spr_player_temp/spr_player_temp.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_saboteur","path":"sprites/spr_saboteur/spr_saboteur.yy",},},
+    {"id":{"name":"spr_stealth","path":"sprites/spr_stealth/spr_stealth.yy",},},
+    {"id":{"name":"spr_thief","path":"sprites/spr_thief/spr_thief.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},

@@ -18,5 +18,6 @@ if (instance_exists(targetInst)) {
         // or trigger an event in this seeker, etc.
 		with(targetInst) event_user(2);
         // Then destroy the seeker itself:
+		instance_deactivate_object(self);
     }
 }

@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_stealth",
+    "path":"sprites/spr_stealth/spr_stealth.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

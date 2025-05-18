@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_temp",
-    "path":"sprites/spr_player_temp/spr_player_temp.yy",
+    "name":"spr_thief",
+    "path":"sprites/spr_thief/spr_thief.yy",
   },
   "spriteMaskId":null,
   "visible":true,
