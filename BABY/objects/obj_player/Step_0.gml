@@ -5,10 +5,26 @@ var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 interact = keyboard_check_pressed(ord("E"));
 
+
 if (!global.menu_active && interact) {
-    global.menu_active = true;
-    instance_create_layer(x, y, "Instances", obj_menu_fridge); // ou obj_menu_stove
+	var offset_x = move_x * 16; // 16 pixels in the direction player is facing
+	var offset_y = move_y * 16;
+	
+var interact_obj = instance_place(x + offset_x, y + offset_y, abs_interactable);
+// general parent object for interactables
+    if (interact_obj != noone) {
+       
+        // check the specific type
+        if (interact_obj.object_index == obj_fridge) {
+			global.menu_active = true;
+            instance_create_layer(x, y, "Instances", obj_menu_fridge);
+        } else if (interact_obj.object_index == obj_stove) {
+			global.menu_active = true;
+            instance_create_layer(x, y, "Instances", obj_menu_stove);
+        }
+    }
 }
+
 
 if(attacked){
 	image_blend = c_orange;	

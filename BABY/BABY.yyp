@@ -62,6 +62,7 @@
     {"id":{"name":"obj_lightswitch","path":"objects/obj_lightswitch/obj_lightswitch.yy",},},
     {"id":{"name":"obj_menu_base","path":"objects/obj_menu_base/obj_menu_base.yy",},},
     {"id":{"name":"obj_menu_fridge","path":"objects/obj_menu_fridge/obj_menu_fridge.yy",},},
+    {"id":{"name":"obj_menu_stove","path":"objects/obj_menu_stove/obj_menu_stove.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_minigame_controller","path":"objects/obj_minigame_controller/obj_minigame_controller.yy",},},
     {"id":{"name":"obj_note_score","path":"objects/obj_note_score/obj_note_score.yy",},},
