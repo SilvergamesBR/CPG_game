@@ -1,7 +1,7 @@
 event_user(0)
 
 if (cooking_timer > 0) {
-    cooking_timer -= 1;
+    cooking_timer -= 0.1;
 
     if (cooking_timer <= 0) {
         // Cooking finished!
