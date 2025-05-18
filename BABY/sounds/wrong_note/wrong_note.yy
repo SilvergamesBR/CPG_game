@@ -12,8 +12,8 @@
   "duration":0.5380045,
   "name":"wrong_note",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
