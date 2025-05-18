@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
   "%Name":"obj_spaghetti",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_spaghetti",
   "overriddenProperties":[],
   "parent":{
-    "name":"holdable",
-    "path":"folders/Objects/holdable.yy",
+    "name":"interactables",
+    "path":"folders/Objects/interactables.yy",
   },
   "parentObjectId":{
-    "name":"abs_holdable",
-    "path":"objects/abs_holdable/abs_holdable.yy",
+    "name":"abs_interactable",
+    "path":"objects/abs_interactable/abs_interactable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -29,7 +31,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Sprite52",
     "path":"sprites/Sprite52/Sprite52.yy",
