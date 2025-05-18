@@ -12,7 +12,6 @@ if (spawn_cooldown <= 0) {
     for (var i = 0; i < n; i++) {
         // só tenta spawnar onde está livre
         if (!ctrl.spawn_occupied[i]) {
-			show_debug_message("1")
             var sp_id = ctrl.spawn_points[i];
             // verifica se o objeto spawn_point ainda existe
             if (instance_exists(sp_id)) {
@@ -23,7 +22,7 @@ if (spawn_cooldown <= 0) {
                 var enemy_type = types[choice];
                 
                 // 5) Cria o inimigo
-                var e = instance_create_layer(sp_id.x, sp_id.y, "Instances", enemy_type);
+                var e = instance_create_layer(sp_id.x + 100, sp_id.y+ 90, "Instances", enemy_type);
                 
                 // 6) Linka o spawn ao inimigo
                 e.spawn_index      = i;
