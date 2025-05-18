@@ -11,16 +11,11 @@ if (isHeld) {
     
 	solid = false;
 	
-    // 2) Drop logic: for example, press X to drop
-    if (keyboard_check_pressed(ord("X"))) {
-        isHeld = false;
-        holder = noone;
-    }
-	
+
 	
 	
 	var gameFps = game_get_speed(gamespeed_fps);
-    if (mouse_check_button(mb_left)) {
+    if (mouse_check_button(mb_left) or keyboard_check(ord("X"))) {
         // ramp up charge
         charge = clamp(charge + charge_speed / gameFps, 0, 1);
         was_holding = true;
@@ -48,7 +43,7 @@ if (isHeld) {
     // 3) Check for pickup: e.g. player presses Z when touching
     var ply = instance_nearest(x, y, obj_player);
     if (ply != noone && point_distance(x, y, ply.x, ply.y) < 48) {
-        if (mouse_check_button_pressed(mb_right)) {
+        if (mouse_check_button_pressed(mb_right) or keyboard_check_pressed(ord("Z"))) {
             // pick up
             isHeld       = true;
             holder       = ply;
