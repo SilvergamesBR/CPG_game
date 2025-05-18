@@ -6,8 +6,8 @@
   "name":"obj_bed",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"furniture",
+    "path":"folders/Objects/furniture.yy",
   },
   "parentObjectId":null,
   "persistent":false,

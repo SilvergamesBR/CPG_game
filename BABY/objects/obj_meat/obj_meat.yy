@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cooking",
-  "eventList":[],
+  "%Name":"obj_meat",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_stove","path":"objects/obj_stove/obj_stove.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_cooking",
+  "name":"obj_meat",
   "overriddenProperties":[],
   "parent":{
-    "name":"solids",
-    "path":"folders/Objects/solids.yy",
+    "name":"holdable",
+    "path":"folders/Objects/holdable.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"abs_holdable",
+    "path":"objects/abs_holdable/abs_holdable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite39",
+    "path":"sprites/Sprite39/Sprite39.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

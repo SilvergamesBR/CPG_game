@@ -8,8 +8,8 @@
   "name":"obj_desk",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"furniture",
+    "path":"folders/Objects/furniture.yy",
   },
   "parentObjectId":{
     "name":"abs_interactable",

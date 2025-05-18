@@ -6,8 +6,8 @@
   "name":"obj_bathroom_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"doors",
+    "path":"folders/Objects/solids/doors.yy",
   },
   "parentObjectId":null,
   "persistent":false,
