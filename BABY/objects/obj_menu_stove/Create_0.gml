@@ -1,14 +1,18 @@
 // Inherit the parent event
 event_inherited();
 
-// Define the functions (you only do this once)
+// Define the function
 function select_spaghetti() {
-    show_debug_message("You selected Sphaghetti!");
+    var stove_var = instance_nearest(x, y, obj_stove);
+
+    if (stove_var != noone && is_callable(stove_var.start_spaghetti)) {
+        stove_var.start_spaghetti();
+    }
+
+    show_debug_message("You selected Spaghetti!");
 }
 
-// Now store the function references in the options array
+// Store the function references
 options = [select_spaghetti];
 option_labels = ["spaghetti"];
-
-// For tracking the selection
 current_index = 0;
