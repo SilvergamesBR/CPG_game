@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"BABY",
   "resources":[
@@ -71,6 +71,7 @@
     {"id":{"name":"obj_note","path":"objects/obj_note/obj_note.yy",},},
     {"id":{"name":"obj_pasta","path":"objects/obj_pasta/obj_pasta.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_progress_bar","path":"objects/obj_progress_bar/obj_progress_bar.yy",},},
     {"id":{"name":"obj_saboteur_fan","path":"objects/obj_saboteur_fan/obj_saboteur_fan.yy",},},
     {"id":{"name":"obj_session","path":"objects/obj_session/obj_session.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
