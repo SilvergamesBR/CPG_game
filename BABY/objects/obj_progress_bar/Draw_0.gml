@@ -1,6 +1,6 @@
 if (instance_exists(stove_ref)) {
     var p = stove_ref.cooking_timer / 180;
-    var bar_width = 40;
+    var bar_width = 60;
     var bar_height = 8;
 
     draw_set_color(c_black);
