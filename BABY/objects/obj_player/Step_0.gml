@@ -4,6 +4,22 @@ var move_speed = 4;
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+if(move_y == 0 and move_x == 0){
+	if(sprite_index == spr_player_behind_walking or sprite_index == spr_player_behind){
+		sprite_index = spr_player_behind;
+	}else{	
+		sprite_index = spr_player;
+	}
+}
+
+if(move_y > 0){
+	sprite_index = spr_player_forward;
+}
+
+if(move_y < 0){
+	sprite_index = spr_player_behind_walking;	
+}
+
 interact = keyboard_check_pressed(ord("E"));
 
 if (!global.menu_active && interact && global.interact_cooldown == 0) {
