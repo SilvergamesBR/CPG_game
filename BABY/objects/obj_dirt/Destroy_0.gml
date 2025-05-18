@@ -1,0 +1,1 @@
+global.tidiness += 5;

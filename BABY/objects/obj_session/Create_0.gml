@@ -1,12 +1,12 @@
 // Core game state variables
-current_game_day = 1;
-money = 100;
-popularity = 1;
+global.current_game_day = 1;
+global.money = 100;
+global.popularity = 1;
 health = 75;
-sanity = 60;
-tidiness = 90;
-hygiene = 80;
-hunger = 50;
+global.sanity = 60;
+global.tidiness = 90;
+global.hygiene = 80;
+global.hunger = 50;
 
 
 // Optional: references to other objects if needed
