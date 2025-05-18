@@ -65,6 +65,7 @@
     {"id":{"name":"obj_dirt","path":"objects/obj_dirt/obj_dirt.yy",},},
     {"id":{"name":"obj_door_deprecated","path":"objects/obj_door_deprecated/obj_door_deprecated.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
+    {"id":{"name":"obj_fan_spawner","path":"objects/obj_fan_spawner/obj_fan_spawner.yy",},},
     {"id":{"name":"obj_fan","path":"objects/obj_fan/obj_fan.yy",},},
     {"id":{"name":"obj_fanatic","path":"objects/obj_fanatic/obj_fanatic.yy",},},
     {"id":{"name":"obj_fridge","path":"objects/obj_fridge/obj_fridge.yy",},},
