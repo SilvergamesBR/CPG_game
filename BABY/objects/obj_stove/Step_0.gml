@@ -9,7 +9,6 @@ if (cooking_timer >= 0) {
 }
 
 if(toggled){
-	isCooking = true;
 	toggled = false;	
 }
 
