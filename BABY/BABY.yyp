@@ -58,6 +58,7 @@
     {"id":{"name":"obj_bedroom_controller","path":"objects/obj_bedroom_controller/obj_bedroom_controller.yy",},},
     {"id":{"name":"obj_broom","path":"objects/obj_broom/obj_broom.yy",},},
     {"id":{"name":"obj_clothes","path":"objects/obj_clothes/obj_clothes.yy",},},
+    {"id":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},},
     {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},},
     {"id":{"name":"obj_curtains","path":"objects/obj_curtains/obj_curtains.yy",},},
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},},
@@ -98,6 +99,7 @@
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},},
     {"id":{"name":"Object35","path":"objects/Object35/Object35.yy",},},
     {"id":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
+    {"id":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
@@ -169,6 +171,7 @@
     {"roomId":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
+    {"roomId":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -8,8 +8,8 @@
   "name":"obj_pa",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"holdable",
+    "path":"folders/Objects/holdable.yy",
   },
   "parentObjectId":{
     "name":"abs_holdable",
