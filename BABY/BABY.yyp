@@ -44,7 +44,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"BABY",
   "resources":[
@@ -89,6 +89,7 @@
     {"id":{"name":"obj_session","path":"objects/obj_session/obj_session.yy",},},
     {"id":{"name":"obj_sink","path":"objects/obj_sink/obj_sink.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
+    {"id":{"name":"obj_spaghetti","path":"objects/obj_spaghetti/obj_spaghetti.yy",},},
     {"id":{"name":"obj_stealth_fan","path":"objects/obj_stealth_fan/obj_stealth_fan.yy",},},
     {"id":{"name":"obj_stove","path":"objects/obj_stove/obj_stove.yy",},},
     {"id":{"name":"obj_thief_fan","path":"objects/obj_thief_fan/obj_thief_fan.yy",},},
@@ -161,6 +162,7 @@
     {"id":{"name":"Sprite39","path":"sprites/Sprite39/Sprite39.yy",},},
     {"id":{"name":"Sprite40","path":"sprites/Sprite40/Sprite40.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
+    {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"stove","path":"sprites/stove/stove.yy",},},
   ],

@@ -21,8 +21,6 @@ ingredient_actions = {
     "meat": select_meat
 };
 
-
-// Ingredientes necessários
 ingredients = {
     pasta: false,
     tomato: false,
@@ -35,10 +33,13 @@ cooking_timer = 0;
 
 // Função para iniciar o cozimento
 start_spaghetti = function () {
-    if (!instance_exists(progress_bar)) {
-        var bar = instance_create_layer(x, y - 16, "Instances", obj_progress_bar);
-        bar.stove_ref = id;
-        progress_bar = bar;
-    }
-    cooking_timer = 180;
+	if (ingredients.meat && ingredients.pasta && ingredients.tomato) {
+
+	    if (!instance_exists(progress_bar)) {
+            progress_bar = instance_create_layer(x, y - 16, "Instances", obj_progress_bar);
+            progress_bar.stove_ref = id; // passa referência do fogão para a barra
+	    }
+
+        cooking_timer = 180;
+	}
 };
