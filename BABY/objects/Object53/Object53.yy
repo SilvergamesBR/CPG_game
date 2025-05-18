@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fan",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object53",
+  "eventList":[],
   "managed":true,
-  "name":"obj_fan",
+  "name":"Object53",
   "overriddenProperties":[],
   "parent":{
     "name":"fans",
     "path":"folders/Objects/fans.yy",
   },
-  "parentObjectId":{
-    "name":"abs_body",
-    "path":"objects/abs_body/abs_body.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
