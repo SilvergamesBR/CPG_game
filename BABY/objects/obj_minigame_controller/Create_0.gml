@@ -1,5 +1,9 @@
 // Average number of notes to try spawning per second (e.g. 0.2 → 1 every 5s on average)
-spawn_per_sec = 0.1;
+multiplier = global.sanity+global.tidiness * global.hunger;
+
+multiplier = 1 + (multiplier/100);
+
+spawn_per_sec = 0.1 * multiplier;
 
 minigame_music_id = audio_play_sound(st_1_loop, 1, true);
 

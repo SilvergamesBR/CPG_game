@@ -1,4 +1,4 @@
-global.spawn_increase_rate += 0.0001;
+global.spawn_increase_rate += 0.0001 * multiplier;
 
 spawn_per_sec += global.spawn_increase_rate;
 
