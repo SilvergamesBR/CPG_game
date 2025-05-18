@@ -164,6 +164,7 @@
     {"id":{"name":"spr_sink","path":"sprites/spr_sink/spr_sink.yy",},},
     {"id":{"name":"spr_stealth","path":"sprites/spr_stealth/spr_stealth.yy",},},
     {"id":{"name":"spr_stove","path":"sprites/spr_stove/spr_stove.yy",},},
+    {"id":{"name":"spr_submenu_back","path":"sprites/spr_submenu_back/spr_submenu_back.yy",},},
     {"id":{"name":"spr_thief","path":"sprites/spr_thief/spr_thief.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_wardrobe","path":"sprites/spr_wardrobe/spr_wardrobe.yy",},},

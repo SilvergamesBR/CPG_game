@@ -1,7 +1,7 @@
 menu_music_id = audio_play_sound(menu_music_loop, 1, true);
 
 base_x    = room_width  * 0.2;
-base_y    = room_height * 0.2;
+base_y    = room_height * 0.25;
 spacing   = 132;
 
 
