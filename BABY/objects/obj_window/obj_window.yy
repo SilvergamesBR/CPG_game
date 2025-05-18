@@ -6,8 +6,8 @@
   "name":"obj_window",
   "overriddenProperties":[],
   "parent":{
-    "name":"solids",
-    "path":"folders/Objects/solids.yy",
+    "name":"furniture",
+    "path":"folders/Objects/furniture.yy",
   },
   "parentObjectId":null,
   "persistent":false,

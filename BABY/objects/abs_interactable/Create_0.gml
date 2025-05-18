@@ -8,3 +8,4 @@ image_index = 0;
 toggled = false;
 stolen = false;
 sabotaged = false;
+enemy_targetable = false

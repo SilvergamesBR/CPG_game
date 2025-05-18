@@ -1,7 +1,7 @@
 if (keyboard_check_pressed(ord("S"))) {
     current_index = (current_index + 1) mod array_length(options);
 }
-if (keyboard_check_pressed(ord("Wd"))) {
+if (keyboard_check_pressed(ord("W"))) {
     current_index = (current_index - 1 + array_length(options)) mod array_length(options);
 }
 
