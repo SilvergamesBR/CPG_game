@@ -26,6 +26,7 @@ if (p != noone && distance_to_object(p) < 10) {
 	if (obj_player.interact) {
     image_index = 1 - image_index;
 	toggled = !toggled;
+	return true
 	}
 	
 
